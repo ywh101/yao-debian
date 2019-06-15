@@ -14,3 +14,8 @@ git tag [name]		to change into the branch you want to add tag, then eg: 'git tag
 					you can browse it on https://github.com/github/gitignore
 			git check-ignore		to check the file '.gitignore' if there is something wrong
 
+You can use 'git config --global alias.st status' to add an alias of status. "--global" for the	
+present user, if not added, for the present repository
+	The location of the configuration file is .git/config.
+	The location of present user's configuration file is ~/.gitconfig
+

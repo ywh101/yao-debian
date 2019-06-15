@@ -1,0 +1,9 @@
+1, create SSH Key		'ssh-keygen -t rsa -C yaowenhua101@hotmail.com'
+2, sign in GitHub, open 'Account settings' -> 'SSH Keys' ->'Add SSH Key' -> input 'Title' a title
+	casually, and paste the content of 'id_rsa.pub' into the frame of 'Key' -> 'Add Key'
+
+
+3, git reomte add origin git@github.com:user/[dir]
+4, git push	-u origin master		to push the local master to the remote master
+									at the first time, add '-u' to create the linkage
+5, git clone git@github.com:user/[dir]	

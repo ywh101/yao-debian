@@ -10,4 +10,7 @@ HEAD	the present edition
 HEAD^	the former edition
 HEAD^^	the edition earlier than the former
 HEAD~100	the hundredth edition
-
+git reset		to go back to the former edition
+	eg:'git reset --hard HEAD^' to go to the history
+	'git reset --hard [the number of the edition]' to go to the future
+git reflog		to record the history command and to show the number of the edition

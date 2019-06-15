@@ -29,3 +29,4 @@ git reset HEAD [file]	to revoke the modification in the stage(git add), to the w
 git rm [file]		while you 'rm [file]', then 'git rm [file]' to remove the file from the                           repository and 'git commit -m "comment"' to confirm it
 					if you 'rm [file]' for mistake, you can 'git checkout -- [file]' to rescue it
 
+iii

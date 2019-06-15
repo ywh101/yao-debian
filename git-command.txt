@@ -3,4 +3,11 @@ initialize the repository		create a directory and get into the directory, then '
 git add [file]		add the files to the repository
 git commit -m "comment"		commit the files to the repository and commit the comments with the   files
 git status		to show the present status of the repository
+git diff [file]		to check the content modified of the newest file
+git log		to show the log from the latest to the earliest
+    'git log --pretty=oneline' to show the simple log
+HEAD	the present edition
+HEAD^	the former edition
+HEAD^^	the edition earlier than the former
+HEAD~100	the hundredth edition
 

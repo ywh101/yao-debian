@@ -1,0 +1,16 @@
+tag is a way for easy search
+git tag [name]		to change into the branch you want to add tag, then eg: 'git tag v1.0'
+	git tag			to check all tags
+	git tag [name] [id of the commit]
+	git show [name]		to show the information of the tag
+	git tag -a [name] -m "comment"		to add the comment to the tag
+	git tag -d [name]		to delete the tag
+	git push origin [name]		to push the tag to the remote
+	git push origin --tags		to push all tags to the remote once
+	if you want to remove the remote tags, you need to remove the local tags first.   'git tag -d		[name]' And then you can remove the remote ones. 'git push origin :refs/tags/[name]'
+
+'.gitignore'		to add the files name to the configuration file, 
+					to let 'git status' ignore them
+					you can browse it on https://github.com/github/gitignore
+			git check-ignore		to check the file '.gitignore' if there is something wrong
+

@@ -1,0 +1,6 @@
+install git		'sudo apt-get install git'
+initialize the repository		create a directory and get into the directory, then 'git init'
+git add [file]		add the files to the repository
+git commit -m "comment"		commit the files to the repository and commit the comments with the   files
+git status		to show the present status of the repository
+

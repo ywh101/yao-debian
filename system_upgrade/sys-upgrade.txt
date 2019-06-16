@@ -1,0 +1,11 @@
+1, backup your important data
+2, sudo apt-get update
+	sudo apt-get upgrade -y		to upgrade all of the softwares in present system
+3, sudo sed -i 's/[present title]/[new title]/g' /etc/apt/source.list to edit /etc/apt/source.list
+4, sudo apt-get update
+	sudo apt-get upgrade -y		to upgrade again
+5, sudo apt-get dist-upgrade -y		full upgrade to the new edition
+6, sudo apt-get autoremove
+	sudo apt-get clean		to clear up the old linkage and packages
+7, reboot		to restart the system
+8, lsb_release -a		to show the present system version

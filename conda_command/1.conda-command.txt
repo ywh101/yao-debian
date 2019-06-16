@@ -7,7 +7,7 @@ conda activate [name]		to make the created environment active
 conda info -e(or --envs)		to list all of the envs
 conda deactivate		to exit the present environment
 conda create -n [name1] --clone [name2]		to create env[name1] by cloning env[name2]
-conda remove -n [name] '[--all]'		to remove a environment
+conda env remove -n [name]		to remove a environment
 conda install --name [name] [program]		to install a program into the specified env
 codna install --channel [URL] [program]		to install a program from the web 
 conda remove -n [name] [program]		to remove a program from the specified env
